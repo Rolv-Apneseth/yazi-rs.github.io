@@ -7,9 +7,4 @@ description: Learn how to configure Yazi.
 
 # Configuration
 
-You can find the preset configuration at: https://github.com/sxyazi/yazi/tree/main/yazi-config/preset.
-
-If you want to override the behavior as you like, please copy them to the following paths, to create and use your own configurations:
-
-- Unix: `~/.config/yazi`
-- Windows: `C:\Users\YourName\AppData\Roaming\yazi\config`
+There are three configuration files for Yazi: [`yazi.toml`](./yazi.md), [`keymap.toml`](./keymap.md), and [`theme.toml`](./theme.md). To configure Yazi, create these files in the `~/.config/yazi/` directory on Unix systems or in the `C:\Users\YourName\AppData\Roaming\yazi\config\` directory on Windows. We highly recommend copying the [default configuration](https://github.com/sxyazi/yazi/tree/main/yazi-config/preset) to start since Yazi is still under heavy development and the defaults may change.
