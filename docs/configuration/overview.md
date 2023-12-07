@@ -10,7 +10,7 @@ description: Learn how to configure Yazi.
 There are three configuration files for Yazi:
 
 - [`yazi.toml`](./yazi.md) - Configuration of file management-related functions
-- [`keymap.toml`](./keymap.md) - Configuration of keybindings
+- [`keymap.toml`](./keymap.md) - Keybinds configuration
 - [`theme.toml`](./theme.md) - Color scheme configuration
 
 Yazi presets these configurations upon release, and uses them by default.
